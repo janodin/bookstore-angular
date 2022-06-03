@@ -1,6 +1,6 @@
 import { Environment } from '@abp/ng.core';
 
-const baseUrl = 'https://willowy-chaja-417005.netlify.app/';
+const baseUrl = 'https://willowy-chaja-417005.netlify.app';
 
 export const environment = {
   production: false,
@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'http://janopatundog-001-site1.btempurl.com',
+    issuer: 'http://janopatundog-001-site1.btempurl.com/',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'http://janopatundog-001-site1.btempurl.com',
+      url: 'http://janopatundog-001-site1.btempurl.com/',
       rootNamespace: 'Acme.BookStore',
     },
   },
