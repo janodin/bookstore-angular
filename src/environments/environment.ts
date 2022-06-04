@@ -1,6 +1,6 @@
 import { Environment } from '@abp/ng.core';
 
-const baseUrl = 'https://willowy-chaja-417005.netlify.app';
+const baseUrl = 'https://jano-bookstore.netlify.app';
 
 export const environment = {
   production: false,
@@ -15,7 +15,7 @@ export const environment = {
     clientId: 'BookStore_App',
     responseType: 'code',
     scope: 'offline_access BookStore',
-    requireHttps: false,
+    requireHttps: true,
   },
   apis: {
     default: {
