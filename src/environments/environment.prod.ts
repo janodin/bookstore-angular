@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44387',
+    issuer: 'http://janopatundog-001-site1.btempurl.com',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'https://localhost:44387',
+      url: 'http://janopatundog-001-site1.btempurl.com',
       rootNamespace: 'Acme.BookStore',
     },
   },
